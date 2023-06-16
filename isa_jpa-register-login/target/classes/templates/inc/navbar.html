@@ -1,0 +1,47 @@
+<html lang="tr" xmlns:th="http://www.thymeleaf.org">
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary pt-2"  >
+    <div class="container-fluid" style="background-color:#840df1">
+        <a class="navbar-brand" href="/dashboard"><b style="color: white">Dashboard</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" th:classappend="${#request.getServletPath() == '/' ? 'active': ''}" aria-current="page" href="/dashboard"><b style="color: white">Home</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:classappend="${#request.getServletPath() == '/' ? 'active': ''}" aria-current="page" href="/manager"><b style="color: white">Manager</b></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <b style="color: white">Dropdown</b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/logout">Logout</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a th:if="${user != null}" class="nav-link disabled" style="color: white" th:text="${#strings.capitalize(user.name)}">Disabled</a>
+                </li>
+            </ul>
+            <form th:action="@{/dashboard/}" class="mt-2">
+                Arama Yap: <input type="text" name="keyword" id="keyword" size="30" style="border-radius: 9px" th:value="${keyword}" required />
+
+                <input type="submit" value="Search" style="border-radius: 9px" />
+
+                <input type="button" value="Clear" id="btnClear" onclick="clearSearch()"  style="border-radius: 9px"/>
+            </form>
+            <script type="text/javascript">
+                function clearSearch() {
+                    window.location = "[[@{/dashboard}]]";
+                }
+            </script>
+        </div>
+    </div>
+</nav>
