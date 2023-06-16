@@ -34,15 +34,13 @@ Bu uygulama genel olarak ürün yönetimi ve uygulama admin yönetimi gibi iş a
 # Project Display Image
 <p>
 
-<img src="https://github.com/isahatipoglu74/Product_Manager_System/blob/main/Customer_Manager_Img/1.png" width="300" height="250" style="max-width:100%;"></a>
-<img src="https://github.com/isahatipoglu74/Product_Manager_System/blob/main/Customer_Manager_Img/2.png" width="300" height="250" style="max-width:100%;"></a>
-<img src="https://github.com/isahatipoglu74/Product_Manager_System/blob/main/Customer_Manager_Img/3.png" width="300" height="250" style="max-width:100%;"></a>
-<img src="https://github.com/isahatipoglu74/Product_Manager_System/blob/main/Customer_Manager_Img/4.png" width="300" height="250" style="max-width:100%;"></a>
-<img src="https://github.com/isahatipoglu74/Product_Manager_System/blob/main/Customer_Manager_Img/5.png" width="300" height="250" style="max-width:100%;"></a>
-<img src="https://github.com/isahatipoglu74/Product_Manager_System/blob/main/Customer_Manager_Img/6.png" width="300" height="250" style="max-width:100%;"></a>
-<img src="https://github.com/isahatipoglu74/Product_Manager_System/blob/main/Customer_Manager_Img/7.png" width="300" height="250" style="max-width:100%;"></a>
-<img src="https://github.com/isahatipoglu74/Product_Manager_System/blob/main/Customer_Manager_Img/8.png" width="300" height="250" style="max-width:100%;"></a>
-<img src="https://github.com/isahatipoglu74/Product_Manager_System/blob/main/Customer_Manager_Img/9.png" width="300" height="250" style="max-width:100%;"></a>
+<img src="https://github.com/isahatipoglu74/Spring_MVC_Urun_Takip_Uygulamasi/blob/main/%C3%9Cr%C3%BCn%20Takip%20Uygulamas%C4%B1/1.png" width="300" height="250" style="max-width:100%;"></a>
+<img src="https://github.com/isahatipoglu74/Spring_MVC_Urun_Takip_Uygulamasi/blob/main/%C3%9Cr%C3%BCn%20Takip%20Uygulamas%C4%B1/2.png" width="300" height="250" style="max-width:100%;"></a>
+<img src="https://github.com/isahatipoglu74/Spring_MVC_Urun_Takip_Uygulamasi/blob/main/%C3%9Cr%C3%BCn%20Takip%20Uygulamas%C4%B1/3.png" width="300" height="250" style="max-width:100%;"></a>
+<img src="https://github.com/isahatipoglu74/Spring_MVC_Urun_Takip_Uygulamasi/blob/main/%C3%9Cr%C3%BCn%20Takip%20Uygulamas%C4%B1/4.png" width="300" height="250" style="max-width:100%;"></a>
+<img src="https://github.com/isahatipoglu74/Spring_MVC_Urun_Takip_Uygulamasi/blob/main/%C3%9Cr%C3%BCn%20Takip%20Uygulamas%C4%B1/5.png" width="300" height="250" style="max-width:100%;"></a>
+<img src="https://github.com/isahatipoglu74/Spring_MVC_Urun_Takip_Uygulamasi/blob/main/%C3%9Cr%C3%BCn%20Takip%20Uygulamas%C4%B1/6.png" width="300" height="250" style="max-width:100%;"></a>
+
 </p>
 
 
